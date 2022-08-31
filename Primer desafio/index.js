@@ -9,7 +9,7 @@ while(numero >= 0) {
     numero = parseInt(prompt("Ingrese otro numero (recuerde que no negativos)"));
 }
 
-if (numero != parseInt) {
+if (numero < 0 || !numero) {
     alert("A ingresado un numero negativo o no ingreso ningun numero");
 }
 

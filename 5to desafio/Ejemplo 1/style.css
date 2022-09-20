@@ -1,0 +1,13 @@
+body {
+    background: #121010;
+    color: green;
+    font-family: Inconsolata,monospace;
+    font-size: 40px;
+}
+  
+#typedtext {
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+}

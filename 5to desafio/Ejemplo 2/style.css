@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: black;
+}
+
+table, th, td {
+    padding: 10px 90px;
+    border: 0px solid rgb(105, 105, 105);
+    border-collapse: collapse;
+    color: hsla(120, 100%, 50%, 0.678);
+}
+
+h1,h3{
+    color: hsla(120, 100%, 50%, 0.678);
+}

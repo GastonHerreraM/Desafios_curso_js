@@ -1,0 +1,43 @@
+*{
+   padding: 0;
+   margin: 0; 
+}
+
+#canvas{
+    width:  600px;
+    height: 260px;
+    border: 2px solid black;
+}
+
+#char{
+    width: 20px;
+    height: 60px;
+    background-color: blue;
+    position: relative;
+    top: 198px;
+}
+
+.animate{
+    animation: jump 700ms;
+}
+
+#block{
+    width: 20px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    top: 168px;
+    left: 578px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block{
+    0% {left:578px}
+    100% {left:-50px}
+}
+
+@keyframes jump{
+    0% {top:198px;}
+    50% {top:138px;}
+    100% {top:198px;}
+}

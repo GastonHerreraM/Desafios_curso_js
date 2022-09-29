@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.resizeCard_img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.cartAmount{
+    position: absolute;
+    top: -4px;
+    right: 8px;
+    font-size: 18px;
+}
